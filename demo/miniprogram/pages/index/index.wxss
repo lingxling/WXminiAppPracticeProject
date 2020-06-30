@@ -1,0 +1,47 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+}
+.mainBox{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoBox{
+  height: 60%;
+  display: flex; 
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  border-radius: 50%;
+  width: 320rpx;
+  height: 320rpx;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:left;
+}
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}

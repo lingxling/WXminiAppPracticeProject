@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "搜索最近的大学",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于查找最近的大学"
+    }
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view class = "mainBox">
+    <view class = "container">
+        <image src = "{{logoUrl}}" class="logo"></image>
+        <view class="infoBox">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{showArray}}">
+            <view class="info">
+            交通方式：{{showArray[index]}}
+            </view>
+        </picker>
+        <text class = "info">最近的大学：{{UniversityInfo.name}}</text>
+        <text class = "info">联系地址：{{UniversityInfo.address}}</text>
+        </view>
+    </view>
+    <view class="button-sp-area">
+        <button type="primary" plain="true" bindtap="openMap">打开地图前往</button>
+    </view>    
+</view>
